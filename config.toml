@@ -1,4 +1,0 @@
-baseURL = 'https://en-barry.page/'
-languageCode = 'en-us'
-title = 'blog.barry'
-theme = 'hugo-PaperMod'
