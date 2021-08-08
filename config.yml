@@ -1,6 +1,6 @@
 baseURL: 'https://en-barry.page/'
 paginate: 5
-title: 'TechBlog.barry'
+title: "Barry's TechBlog"
 theme: 'hugo-PaperMod'
 
 enableRobotsTXT: true
@@ -56,24 +56,27 @@ params:
     images: ["papermod-cover.png"]
 
     profileMode:
-        enabled: false
-        title: TechBlog.barry
-        imageUrl: "#"
+        enabled: true
+        title: "Barry"
+        subtitle: Railsエンジニア見習い<br>デスク周りに特化した写真投稿サービス「[Buildesk](https://buildesk.app)」を個人開発
+        imageUrl: "https://s3-ap-northeast-1.amazonaws.com/qiita-image-store/0/707098/2c8225b6f20fdc22674b1bcc13ef65e5581b5ce7/large.png?1615922410"
         imageTitle: my image
         # imageWidth: 120
         # imageHeight: 120
         buttons:
-            - name: Archives
-              url: archives
+            - name: Posts
+              url: posts
+            - name: Search
+              url: search
             - name: Tags
               url: tags
 
     homeInfoParams:
         Title: "en-Barry"
         Content: >
-            Barryの技術ブログ。不定期。
+            Railsエンジニア見習い。
             <br>
-            デスク周りに特化した写真投稿サービス「[Buildesk](https://buildesk.app)」を開発。
+            デスク周りに特化した写真投稿サービス「[Buildesk](https://buildesk.app)」を個人開発。
     socialIcons:
         - name: github
           url: "https://github.com/en-Barry"
